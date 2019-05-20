@@ -550,7 +550,7 @@ var device = null;
                         device = null;
                         if (detached) {
                             // Wait a few seconds and try reconnecting
-                            setTimeout(autoConnect, 5000);
+                            setTimeout(autoConnect, 10000);
                         }
                     },
                     async error => {
